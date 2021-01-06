@@ -83,6 +83,7 @@ public class Szinkep {
                     oszlop++;
                 }
             }
+            System.out.println(oszlop);
             for (int i = 0; i < 50; i++) {
                 if (pixelek[1700+i][0]==szin0 &&
                     pixelek[1700+i][1]==szin1 &&
@@ -90,7 +91,7 @@ public class Szinkep {
                     sor++;
                 }
             }
-            
+            System.out.println(sor);
         } catch (FileNotFoundException ex) {
             System.out.println("Nem található a file!");
         } catch (IOException ex) {
